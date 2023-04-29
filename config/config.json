@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "dvrklex",
+    "password": "dvrklex",
+    "database": "dvrklex_db",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "dvrklex",
+    "password": "dvrklex",
+    "database": "dvrklex_db",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "dvrklex",
+    "password": "dvrklex",
+    "database": "dvrklex_db",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
