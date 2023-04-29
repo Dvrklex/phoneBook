@@ -69,8 +69,17 @@ npm install joi
 1. Para ejecutar la aplicación, utilizar el comando `npm start`. Esto iniciará el servidor en el puerto especificado, por defecto el puerto 3000.
 
 2. Las rutas disponibles para esta aplicación serán:
+  - GET:
+    - GET http://localhost:3003/contact/ - Listado de todos los contactos
+    - GET http://localhost:3003/contact/favourites - Listado de contactos favoritos
+    - GET http://localhost:3003/contact/search - Busqueda de un contacto por nombre
+    - GET http://localhost:3003/contact/:id - Detalle de un contacto por ID
 
-    - GET http://localhost:3003/ - Listado de todos los contactos
-    - GET http://localhost:3003/:id - Detalle de un contacto por ID
-    - DELETE http://localhost:3003/:id - Eliminación de un contacto por ID
-    - POST http://localhost:3003/ - Creación de un nuevo contacto
+  - POST:
+    - POST http://localhost:3003/contact/ - Creación de un nuevo contacto
+
+  - PUT:
+    - PUT http://localhost:3003/contact/:id - Actualización de un contacto por ID
+    
+  - DELETE:
+    - DELETE http://localhost:3003/contact/:id - Eliminación de un contacto por ID
