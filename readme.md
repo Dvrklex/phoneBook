@@ -66,7 +66,7 @@ npm install joi
 2. Para ejecutar las migraciones, utilizar el comando `sequelize db:migrate`. Esto aplicará los cambios especificados en las migraciones a la base de datos.
 
 # Ejecución de la aplicación
-1. Para ejecutar la aplicación, utilizar el comando `npm start`. Esto iniciará el servidor en el puerto especificado, por defecto el puerto 3000.
+1. Para ejecutar la aplicación, utilizar el comando `npm run dev`. Esto iniciará el servidor en modo desarrollo en el puerto especificado, por defecto el puerto 3000.
 
 2. Las rutas disponibles para esta aplicación serán:
   - GET:
@@ -80,6 +80,6 @@ npm install joi
 
   - PUT:
     - PUT http://localhost:3003/contact/:id - Actualización de un contacto por ID
-    
+
   - DELETE:
     - DELETE http://localhost:3003/contact/:id - Eliminación de un contacto por ID
